@@ -1,7 +1,6 @@
 const products = [
 	{
-		_id: 1,
-		name: "Product A",
+		name: "Product B",
 		image: "https://i.imgur.com/Q4mX7Mv.jpg",
 		description: "DJ Quik",
 		brand: "Sony",
@@ -12,7 +11,6 @@ const products = [
 		numReviews: 4,
 	},
 	{
-		_id: 2,
 		name: "Product A",
 		image: "https://i.imgur.com/HpcI73e.jpg",
 		description: "DJ Quik",
@@ -24,8 +22,7 @@ const products = [
 		numReviews: 4,
 	},
 	{
-		_id: 3,
-		name: "Product A",
+		name: "Product X",
 		image: "https://i.imgur.com/eZxCAq6.png",
 		description: "DJ Quik",
 		brand: "Sony",
@@ -36,8 +33,7 @@ const products = [
 		numReviews: 4,
 	},
 	{
-		_id: 4,
-		name: "Product A",
+		name: "Product G",
 		image: "https://i.imgur.com/Jh44CXU.jpg",
 		description: "DJ Quik",
 		brand: "Sony",
