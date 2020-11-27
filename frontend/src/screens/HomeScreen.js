@@ -10,19 +10,17 @@ const HomeScreen = () => {
 	const dispatch = useDispatch();
 
 	const productList = useSelector((state) => state.productList);
-
 	const { loading, error, products } = productList;
 
 	useEffect(() => {
 		dispatch(listProducts());
+
 		// const fetchProducts = async () => {
 		// 	const { data } = await axios.get("/api/products");
 		// 	setProducts(data);
 		// };
 		// fetchProducts();
 	}, [dispatch]);
-
-	// const products = [];
 
 	return (
 		<div className="browse">
